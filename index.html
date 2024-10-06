@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <title>محاسبه گر رزین</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>محاسبه گر رزین</h1>
+            <div class="input">
+                <input type="text" class="input-text" id="Area" placeholder="مساحت">
+            </div>
+            <div class="input">
+                <input type="text" class="input-text" id="Depth" placeholder="عمق">
+            </div>
+            <input class="input-submit" type="submit" value="محاسبه" onclick="CalculatorRezin()">
+            <div class="result" dir="rtl">
+                <h3 id="result-label"></h3>
+            </div>
+        </div>
+        <div class="footer">
+            <h4 class="footer-label">Created By Reza FerdosAra</h4>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

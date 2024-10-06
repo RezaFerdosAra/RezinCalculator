@@ -1,0 +1,50 @@
+/* 1201px and more —  Extra large screens, TV
+@media screen and (min-width: 1201px)
+{} */
+
+/* 1025px — 1200px: Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px)
+{}
+
+/* 769px — 1024px: Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+    .container{
+        width: 70%;
+    }
+    .input-text {
+        width: 70%;
+    }
+}
+
+/* 481px — 768px: iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px)
+{
+    .container{
+        width: 70%;
+    }
+    .input-text {
+        width: 70%;
+    }
+}
+
+/* 320px — 480px: Mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px)
+{
+    body{
+        background-size:cover;
+    }
+    .container{
+        margin-top: 100px;
+        width: 80%;
+    }
+    .input-text {
+        width: 80%;
+    }
+    .footer-label{
+        font-size: 14px;
+    }
+    .footer{
+        margin-top: 200px;
+    }
+}

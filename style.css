@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Bnazanin1' ;
+    src: url('Source/B\ Nazanin-.ttf');
+}
+@font-face {
+    font-family: 'English' ;
+    src: url('Source/ARLRDBD.TTF');
+}
+@font-face {
+    font-family: 'Result' ;
+    src: url('Source/B\ Titr\ Bold-.ttf');
+}
+/*  */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color:rgb(251, 243, 213);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(156, 175, 170);
+  }
+/*  */
+html{
+    font-family: 'Bnazanin1', 'English';
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url('Source/Background.jpg'); */
+    background-image: url('Source/BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    min-height: 500px;
+    width: 50%;
+    border-radius: 35px;
+    display: flex;
+    margin: 5% auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(156, 175, 170, 0.9);
+    color: rgb(251, 243, 213);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+input::placeholder {
+    font: 25px 'Bnazanin1';
+}
+input{
+    
+    font: 20px 'Bnazanin1';
+}
+.input-submit{
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    background-color: rgb(20, 87, 80);
+    color: rgb(251, 243, 213);
+}
+.input-submit:hover{
+    background-color: rgb(4, 126, 127);
+}
+.input{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.input-text{
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(251, 243, 213);
+    border-bottom: 3px solid rgb(251, 243, 213);
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 30px auto;
+    width: 60%;
+    
+}
+.input-text:focus{
+    /* border-bottom: 3px solid gray; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.result{
+    overflow-wrap:normal;
+    hyphens: auto;
+    width: 100%;
+    padding: 10px 0px;
+    justify-content: center;
+    
+}
+#result-label{
+    overflow-wrap: break-word;
+    hyphens: auto;
+    font-family: 'Result';
+    padding: 0px 10%;
+    align-items: center;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(77, 81, 86); */
+    background-color: rgb(156, 175, 170, 0.9);
+}
+.footer-label{
+    text-align: center;
+    color: rgb(251, 243, 213);
+    padding: 35px 0px;
+    margin-bottom: 0px;
+}
